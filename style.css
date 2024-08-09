@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-image: url('https://th.bing.com/th?id=OIP.nyW8wpMJV5Y8HK7r1D67jgHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2');
+    color: white;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+}
+.container > div{
+    
+    height: 250px;
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container > div:hover{
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+.bg-1{
+    background-image: url('https://th.bing.com/th?id=OIF.%2f2dQmof41Z6J8vrYhumnVA&w=321&h=180&c=7&r=0&o=5&pid=1.7');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.bg-2{
+    background-image: url('https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTRhOTJmNDQwLTU1ODktMTFlZi1iMTk0LWRmZWZhYWI0Y2MxMC5qcGc=');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position-x: center;
+}
+.bg-3{
+    background-image: url('https://th.bing.com/th?id=OVFT.EHbsqa_yPc2JIJ_C_Nd08C&pid=News&w=234&h=132&c=14&rs=2&qlt=90');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.bg-4{
+    background-image: url('https://www.bing.com/th?id=OIP.ea_34Lvcjvbvfn64wuObwAHaD6&w=179&h=185&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2');
+    background-size: cover;
+    background-position-x: center;
+}
+.bg-5{
+    background-image: url('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1osFlg.img?w=549&h=309&m=6&x=250&y=32&s=174&d=59');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+}
+
